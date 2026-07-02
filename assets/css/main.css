@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #212121;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2358,8 +2358,11 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.main img {
+			.image.main iframe {
 				width: 100%;
+				max-width: 900px;
+				aspect-ratio: 16 / 9;
+				border: 0;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2572,7 +2575,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		/*postiion: relative;*/
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2595,12 +2598,16 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 				border-radius: 4px;
+				height: 300px; /*Force Height */
 				overflow: hidden;
 			}
 
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
+					height: 100%;
+					object-fit: cover; /*Crop while filling */
+					object-position: top; /*Center the image in the box */	
 				}
 
 				.tiles article > .image:before {
@@ -2829,7 +2836,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 2.5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -3151,13 +3158,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 0em 0 1em 0 ;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			#main {
-				padding: 0em 0 4em 0 ;
+				padding: 0em 0 3em 0 ;
 			}
 
 		}
@@ -3165,8 +3172,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 1em 0 ;
-		background-color: #f6f6f6;
+		padding: 0em 0 ;
+		background-color: rgb(80, 80, 80);
 	}
 
 		#footer > .inner {
@@ -3182,6 +3189,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
+			margin-top: auto;
 		}
 
 			#footer > .inner > * > :last-child {
@@ -3204,7 +3212,7 @@ input, select, textarea {
 				margin-top: 2em;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				color: rgba(255, 255, 255, 0.5);
 			}
 
 				#footer > .inner .copyright a {
@@ -3228,7 +3236,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 1em 0 1em 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3317,7 +3325,7 @@ input, select, textarea {
 		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
-		padding: 0 2.5em;
+		padding: 0 2em;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3327,25 +3335,16 @@ input, select, textarea {
 			}
 
 		}
-
-		
-.project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 2rem;
+	
+.description {
+    margin-bottom: 1rem;
 }
 
-.engine-logo {
-    width: 80px;
-    height: auto;
-}
-
-.project-content {
+.media {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.1fr 1fr;
     gap: 2rem;
-    margin-bottom: 2rem;
+    align-items: start;
 }
 
 .video iframe {
@@ -3362,9 +3361,6 @@ input, select, textarea {
 
 .screenshots img {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
-.description {
-    margin-top: 2rem;
-}
