@@ -6,7 +6,7 @@ Object.entries(projects)
         logo = project.isUnity ? "images/logo-unity.png" : "images/logo-unreal.png";
 
         container.innerHTML += `
-        <section class="project">
+        <section id="${id}"class="project">
         <div style = "display:flex; align-items:center;">
             <img src="${logo}"; alt="Logo" style="height: 50px; margin: auto 1rem auto 0;"> 
                 <div><h1 style="margin: 0;">${project.title}</h1></div>
