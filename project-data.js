@@ -3,6 +3,7 @@ const projects = {
         title: "Metaversal Madness",
         genre: "3D Extraction Shooter",
         isUnity: false,
+        category: "featured",
         video: "1foKAoog6reo2sJ59hgHWkvGpn_1NdBjz",
         cover: "images/covers/watermelongame.png",
         screenshots: 
@@ -21,6 +22,7 @@ const projects = {
         title: "Watermelon Game",
         genre: "2D Physics Puzzle Game",
         isUnity: true,
+        category: "featured",
         video: "1OZxwUGYhtrIsclI0FdJMEmU-QxiQe9OT",
         cover: "images/covers/watermelongame.png",
         screenshots: 
@@ -40,6 +42,7 @@ const projects = {
         title: "Kekt Boss Rush",
         genre: "2D Boss Rush Roguelite",
         isUnity: true,
+        category: "featured",
         video: "1X-e0CKpcKETL5pZ4XRscbtHLqiJEuU_m",
         cover: "images/covers/kektbossrush.png",
         screenshots:
@@ -59,6 +62,7 @@ const projects = {
         title: "Binary Shift",
         genre: "2.5D/3D King of the Hill Game",
         isUnity: true,
+        category: "featured",
         video: "1Cw3oV421RRAZmc2cc21iWaxNXl9w2Qy-",
         cover: "images/covers/binaryshift.png",
         screenshots:
@@ -78,6 +82,7 @@ const projects = {
         title: "Baby Dash",
         genre: "3D Endless Runner",
         isUnity: true,
+        category: "featured",
         video: "1Ao4uuckSC5jdVz2dMqTTvl7oiEjKrmZN",
         cover: "images/covers/babydash.png",
         screenshots:
@@ -97,6 +102,7 @@ const projects = {
         title: "Slimix Showdown",
         genre: "2D Match-3 Puzzle Game",
         isUnity: true,
+        category: "featured",
         video: "1hdVFnkEXev_RlOaWeYl-MQ7eU_uc1YOh",
         cover: "images/covers/slimix.png",
         screenshots:
@@ -116,6 +122,7 @@ const projects = {
         title: "Blitzfire",
         genre: "3D FPS Speedrunner",
         isUnity: true,
+        category: "featured",
         video: "1P0ipyKBCkam4ApRFGAXROInleRD96ZhT",
         cover: "images/covers/blitzfire.png",
         screenshots:
@@ -136,6 +143,7 @@ const projects = {
         title: "Lightspeed Labyrinth",
         genre: "3D Endless Space Shooter",
         isUnity: true,
+        category: "prototype",
         video: "1Pk7o3-5Um1PkNt1BxfqH-H9WDnF18G4l",
         cover: "images/covers/lightspeed.png",
         screenshots:
@@ -155,6 +163,7 @@ const projects = {
         title: "Stoshi World",
         genre: "2D Platformer",
         isUnity: true,
+        category: "prototype",
         video: "1K1__Xv2sINgA_vmOGKMaAUMnWUrZbgF-",
         cover: "images/covers/stoshiworld.png",
         screenshots:
@@ -174,6 +183,7 @@ const projects = {
         title: "Pick 2",
         genre: "2D Battle Simulator/RTS",
         isUnity: true,
+        category: "prototype",
         video: "1YAcQ_Hh0H4KnqPs_q57UgGppBTgS1vvA",
         cover: "images/covers/pick2.png",
         screenshots:
@@ -193,6 +203,7 @@ const projects = {
         title: "Wen Lambo",
         genre: "3D Endless Runner/Racer",
         isUnity: true,
+        category: "prototype",
         video: "1-lzNbjYA0iN-SDaxccHIWuvZ_ob5vdAp",
         cover: "images/covers/wenlambo.png",
         screenshots:
@@ -212,6 +223,7 @@ const projects = {
         title: "Stoshi Board",
         genre: "3D Obstacle Puzzle Game",
         isUnity: true,
+        category: "prototype",
         video: "1zDtYHWh2Q3SlfBCJ4oL8Ut33UE7wiTWD",
         cover: "images/covers/stoshiboard.png",
         screenshots:
@@ -231,6 +243,7 @@ const projects = {
         title: "Stoshi Run",
         genre: "3D Endless Runner",
         isUnity: true,
+        category: "prototype",
         video: "12CjTdiH9MxrvkRHHxDLMstmmlH_taOam",
         cover: "images/covers/stoshirun.png",
         screenshots:
@@ -250,6 +263,7 @@ const projects = {
         title: "Blockspace",
         genre: "2D Physics Puzzle Game",
         isUnity: true,
+        category: "prototype",
         video: "1kP_tGkpvcogpbQmL0bSpY9uKR7T5XLzf",
         cover: "images/covers/blockspace.png",
         screenshots:
@@ -269,6 +283,7 @@ const projects = {
         title: "Pwned",
         genre: "3D FPS Aim Trainer",
         isUnity: true,
+        category: "prototype",
         video: "1MEQsSVX4idU6fb17EaPmTNLS5hahGtf6",
         cover: "images/covers/pwned.png",
         screenshots:
@@ -288,6 +303,7 @@ const projects = {
         title: "Jetpack Galaxy Rush",
         genre: "2.5D Endless Sidescroller",
         isUnity: true,
+        category: "prototype",
         video: "13bEn_bpe7eCG0XZBOtdSPeOMMzaey29s",
         cover: "images/covers/jetpack.png",
         screenshots:
@@ -307,6 +323,7 @@ const projects = {
         title: "Pandaboard Extreme",
         genre: "3D Trick Snowboarder",
         isUnity: true,
+        category: "prototype",
         video: "1K-_4uwskwn55TQh12wQWLOYGOLw3j7Gd",
         cover: "images/covers/pandaboard.png",
         screenshots:
@@ -326,6 +343,7 @@ const projects = {
         title: "Silk Road",
         genre: "2D Simulation/Tycoon",
         isUnity: true,
+        category: "prototype",
         video: "1irTx3CfpvJT9uckjE6Z7Y5m0gyMjAbpz",
         cover: "images/covers/silkroad.png",
         screenshots:
@@ -345,6 +363,7 @@ const projects = {
         title: "Fawkes",
         genre: "2D Artillery Puzzle Game",
         isUnity: true,
+        category: "prototype",
         video: "1QdK_ljlJCejc59FhonpyonoiK7jvG2Fg",
         cover: "images/covers/fawkes.png",
         screenshots:
@@ -364,6 +383,7 @@ const projects = {
         title: "Tightrope",
         genre: "3D Endless Runner",
         isUnity: true,
+        category: "prototype",
         video: "1YZRy--qSCWmcSs_SIYqg0aXsgcs_HxfC",
         cover: "images/covers/tightrope.png",
         screenshots:
@@ -383,6 +403,7 @@ const projects = {
         title: "Lost in Transit",
         genre: "3D Strategy Puzzle Game",
         isUnity: true,
+        category: "prototype",
         video: "1r3dmtTWRPJJnXLLcuY6s4HPKwOY-kp9C",
         cover: "images/covers/lostintransit.png",
         screenshots:
@@ -402,6 +423,7 @@ const projects = {
         title: "Bosh the Bear",
         genre: "3D Parkour Platformer",
         isUnity: true,
+        category: "prototype",
         video: "1fjhOJfhu26HPyyD1vYEWCWHdCTfDXh9x",
         cover: "images/covers/bosh.png",
         screenshots:

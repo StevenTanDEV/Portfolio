@@ -10,23 +10,9 @@
 	<body class="is-preload" style="height: 100vh; display: flex; flex-direction: column;">
 		<!-- Wrapper -->
 			<div id="wrapper">
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-							<!-- Nav -->
-								<nav><ul><li><a href="#menu">Menu</a></li></ul></nav>
-						</div>
-					</header>
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="projects.html">Featured Projects</a></li>
-							<li><a href="prototypes.html">Prototypes</a></li>
-                            <li><a href="personal.html">Personal Projects</a></li>
-						</ul>
-					</nav>
+				<!-- Header / Menu -->
+				<div id="header-container"></div>
+				<div id="menu-container"></div>
 
 				<!-- Main -->
 					<div id="main">
@@ -50,14 +36,12 @@
 						</div>
 					</div>
 				<!-- Footer -->
-				<footer id="footer">
-					<div class="inner">
-						<ul class="copyright"><li>&copy; 2026 Steven Tan</li></ul>
-					</div>
-				</footer>
+				<footer id="footer"></footer>
 			</div>
 
 		<!-- Scripts -->
+		 	<script src="layout.js"></script>
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

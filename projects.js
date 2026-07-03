@@ -1,6 +1,7 @@
 const container = document.getElementById("projectList");
 
 Object.entries(projects)
+    .filter(([id, project]) => project.category === "prototype")
     .forEach(([id, project]) => {
 
         logo = project.isUnity ? "images/logo-unity.png" : "images/logo-unreal.png";

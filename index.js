@@ -22,7 +22,7 @@ document.querySelectorAll(".project-card").forEach(card => {
     <span class = "image">
         <img src ="${project.cover}" alt ="${project.title}" >        
         </span>
-        <a href = "projects.html#${id}">
+        <a href = "additional-projects-list.html#${id}">
                 <h2>${project.title}</h2>
 			<div class="content">
 			    <p>${project.genre} ${engineName}</p>
