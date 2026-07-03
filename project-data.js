@@ -1,9 +1,28 @@
 const projects = {
+    "metaversal-madness": {
+        title: "Metaversal Madness",
+        genre: "3D Extraction Shooter",
+        isUnity: false,
+        video: "1foKAoog6reo2sJ59hgHWkvGpn_1NdBjz",
+        cover: "images/covers/watermelongame.png",
+        screenshots: 
+        [
+        "images/screenshots/MetaversalMadness-SS.png", 
+        "images/screenshots/MetaversalMadness-SS2.png"
+        ],
+        bullets: 
+        [
+            "Networked multiplayer using the Gameplay Ability System & Lyra architecture",
+            "Created modular system for streamlined Weapon/Ammo creation for scalability",
+            "Diverse ability sets per weapon with ammo (similar to MOBA hero abilities)"
+        ]
+    },
     "watermelon-game": {
         title: "Watermelon Game",
-        genre: "2D Puzzle Game",
+        genre: "2D Physics Puzzle Game",
         isUnity: true,
         video: "1OZxwUGYhtrIsclI0FdJMEmU-QxiQe9OT",
+        cover: "images/covers/watermelongame.png",
         screenshots: 
         [
         "images/screenshots/Watermelon-SS.png", 
@@ -22,6 +41,7 @@ const projects = {
         genre: "2D Boss Rush Roguelite",
         isUnity: true,
         video: "1X-e0CKpcKETL5pZ4XRscbtHLqiJEuU_m",
+        cover: "images/covers/kektbossrush.png",
         screenshots:
         [
             "images/screenshots/KBR-SS.png",   
@@ -40,6 +60,7 @@ const projects = {
         genre: "2.5D/3D King of the Hill Game",
         isUnity: true,
         video: "1Cw3oV421RRAZmc2cc21iWaxNXl9w2Qy-",
+        cover: "images/covers/binaryshift.png",
         screenshots:
         [
             "images/screenshots/BinaryShift-SS.png",   
@@ -58,6 +79,7 @@ const projects = {
         genre: "3D Endless Runner",
         isUnity: true,
         video: "1Ao4uuckSC5jdVz2dMqTTvl7oiEjKrmZN",
+        cover: "images/covers/babydash.png",
         screenshots:
         [
             "images/screenshots/BabyDash-SS.png",   
@@ -76,6 +98,7 @@ const projects = {
         genre: "2D Match-3 Puzzle Game",
         isUnity: true,
         video: "1hdVFnkEXev_RlOaWeYl-MQ7eU_uc1YOh",
+        cover: "images/covers/slimix.png",
         screenshots:
         [
             "images/screenshots/Slimix-Ss.png",   
@@ -91,9 +114,10 @@ const projects = {
     "blitzfire":
     {
         title: "Blitzfire",
-        genre: "3D Third-Person Shooter",
+        genre: "3D FPS Speedrunner",
         isUnity: true,
         video: "1P0ipyKBCkam4ApRFGAXROInleRD96ZhT",
+        cover: "images/covers/blitzfire.png",
         screenshots:
         [
             "images/screenshots/Blitzfire-SS.png",
@@ -110,9 +134,10 @@ const projects = {
     "lightspeed-labyrinth":
     {
         title: "Lightspeed Labyrinth",
-        genre: "3D Puzzle Game",
+        genre: "3D Endless Space Shooter",
         isUnity: true,
         video: "1Pk7o3-5Um1PkNt1BxfqH-H9WDnF18G4l",
+        cover: "images/covers/lightspeed.png",
         screenshots:
         [
             "images/screenshots/Lightspeed-SS.png",
@@ -131,6 +156,7 @@ const projects = {
         genre: "2D Platformer",
         isUnity: true,
         video: "1K1__Xv2sINgA_vmOGKMaAUMnWUrZbgF-",
+        cover: "images/covers/stoshiworld.png",
         screenshots:
         [
             "images/screenshots/StoshiWorld-SS.png",
@@ -149,6 +175,7 @@ const projects = {
         genre: "2D Battle Simulator/RTS",
         isUnity: true,
         video: "1YAcQ_Hh0H4KnqPs_q57UgGppBTgS1vvA",
+        cover: "images/covers/pick2.png",
         screenshots:
         [
             "images/screenshots/Pick2-SS.png",
@@ -167,6 +194,7 @@ const projects = {
         genre: "3D Endless Runner/Racer",
         isUnity: true,
         video: "1-lzNbjYA0iN-SDaxccHIWuvZ_ob5vdAp",
+        cover: "images/covers/wenlambo.png",
         screenshots:
         [
             "images/screenshots/WenLambo-SS.png",
@@ -185,6 +213,7 @@ const projects = {
         genre: "3D Obstacle Puzzle Game",
         isUnity: true,
         video: "1zDtYHWh2Q3SlfBCJ4oL8Ut33UE7wiTWD",
+        cover: "images/covers/stoshiboard.png",
         screenshots:
         [
             "images/screenshots/StoshiBoard-SS.png",
@@ -203,6 +232,7 @@ const projects = {
         genre: "3D Endless Runner",
         isUnity: true,
         video: "12CjTdiH9MxrvkRHHxDLMstmmlH_taOam",
+        cover: "images/covers/stoshirun.png",
         screenshots:
         [
             "images/screenshots/StoshiRun-SS.png",
@@ -221,6 +251,7 @@ const projects = {
         genre: "2D Physics Puzzle Game",
         isUnity: true,
         video: "1kP_tGkpvcogpbQmL0bSpY9uKR7T5XLzf",
+        cover: "images/covers/blockspace.png",
         screenshots:
         [
             "images/screenshots/Blockspace-SS.png",
@@ -239,6 +270,7 @@ const projects = {
         genre: "3D FPS Aim Trainer",
         isUnity: true,
         video: "1MEQsSVX4idU6fb17EaPmTNLS5hahGtf6",
+        cover: "images/covers/pwned.png",
         screenshots:
         [
             "images/screenshots/Pwned-SS.png",
@@ -257,6 +289,7 @@ const projects = {
         genre: "2.5D Endless Sidescroller",
         isUnity: true,
         video: "13bEn_bpe7eCG0XZBOtdSPeOMMzaey29s",
+        cover: "images/covers/jetpack.png",
         screenshots:
         [
             "images/screenshots/Jetpack-SS.png",
@@ -275,6 +308,7 @@ const projects = {
         genre: "3D Trick Snowboarder",
         isUnity: true,
         video: "1K-_4uwskwn55TQh12wQWLOYGOLw3j7Gd",
+        cover: "images/covers/pandaboard.png",
         screenshots:
         [
             "images/screenshots/Pandaboard-SS.png",
@@ -293,6 +327,7 @@ const projects = {
         genre: "2D Simulation/Tycoon",
         isUnity: true,
         video: "1irTx3CfpvJT9uckjE6Z7Y5m0gyMjAbpz",
+        cover: "images/covers/silkroad.png",
         screenshots:
         [
             "images/screenshots/SilkRoad-SS.png",
@@ -311,6 +346,7 @@ const projects = {
         genre: "2D Artillery Puzzle Game",
         isUnity: true,
         video: "1QdK_ljlJCejc59FhonpyonoiK7jvG2Fg",
+        cover: "images/covers/fawkes.png",
         screenshots:
         [
             "images/screenshots/Fawkes-SS.png",
@@ -329,6 +365,7 @@ const projects = {
         genre: "3D Endless Runner",
         isUnity: true,
         video: "1YZRy--qSCWmcSs_SIYqg0aXsgcs_HxfC",
+        cover: "images/covers/tightrope.png",
         screenshots:
         [
             "images/screenshots/Tightrope-SS.png",
@@ -347,6 +384,7 @@ const projects = {
         genre: "3D Strategy Puzzle Game",
         isUnity: true,
         video: "1r3dmtTWRPJJnXLLcuY6s4HPKwOY-kp9C",
+        cover: "images/covers/lostintransit.png",
         screenshots:
         [
             "images/screenshots/LostInTransit-SS.png",
@@ -365,6 +403,7 @@ const projects = {
         genre: "3D Parkour Platformer",
         isUnity: true,
         video: "1fjhOJfhu26HPyyD1vYEWCWHdCTfDXh9x",
+        cover: "images/covers/bosh.png",
         screenshots:
         [
             "images/screenshots/Bosh-SS.png",
