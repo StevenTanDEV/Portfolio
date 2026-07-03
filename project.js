@@ -5,10 +5,11 @@ const project = projects[id];
 
 if (!project)
 {
-    document.body.innerHTML = "<h1>Project not found</h1>";
+    window.location.replace("index.html");
 }
 else
 {
+    document.getElementById("windowName").innerText = `${project.title} - Steven Tan`;
     document.getElementById("title").innerText = project.title;
     document.getElementById("genre").innerText = project.genre;
     document.getElementById("video").src = `https://drive.google.com/file/d/${project.video}/preview`;
