@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Questrial", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -1926,6 +1926,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		flex-wrap: wrap;
 	}
 
 		ul.actions li {
@@ -1976,6 +1977,7 @@ input, select, textarea {
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
 				width: 100%;
+				flex: 1 1 250px;
 			}
 
 				ul.actions.fit li > * {
@@ -2585,7 +2587,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
+			width: 300px;
 			margin: 2.5em 0 0 2.5em;
 		}
 
@@ -3364,3 +3366,20 @@ input, select, textarea {
     border-radius: 8px;
 }
 
+.itch-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.itch-list iframe {
+    flex: 1 1 600px;
+    max-width: 675px;
+    height: 165px;
+    border: 0;
+}
+
+.itch-more{
+	text-align: center;
+}

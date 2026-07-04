@@ -16,7 +16,7 @@ document.getElementById("menu-container").innerHTML = `
 		<li><a href="index.html">Home</a></li>
 		<li><a href="featured-projects.html">Featured Projects (BIGA)</a></li>
 		<li><a href="additional-projects.html">Additional Projects (BIGA)</a></li>
-        <li><a href="personal.html">Personal Projects</a></li>	
+        <li><a href="personal-projects.html">Personal Projects</a></li>	
 	</ul>
 </nav>
 `;

@@ -35,5 +35,9 @@ function loadProjects(category)
         });
 }
 
-const category = document.getElementById("projectList").dataset.category;
-loadProjects(category);
+var list = document.getElementById("projectList");
+if (list)
+{
+    const category = list.dataset.category;
+    loadProjects(category);
+}
