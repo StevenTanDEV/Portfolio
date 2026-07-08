@@ -288,8 +288,8 @@ const projects = {
         cover: "images/covers/pwned.png",
         screenshots:
         [
-            "images/screenshots/Pwned-SS.png",
-            "images/screenshots/Pwned-SS2.png",
+            "images/screenshots/PWNED-SS.png",
+            "images/screenshots/PWNED-SS2.png",
         ],
         bullets:
         [
